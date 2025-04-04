@@ -1,3 +1,5 @@
+@font-face{font-family:monument extended;font-style:normal;font-weight:400;src:local('Monument Extended'),url(https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff) format('woff')}@font-face{font-family:monument extended;font-style:normal;font-weight:800;src:local('Monument Extended'),url(https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff) format('woff')}
+@Nazish-kiran
 * {
     margin: 0;  
     padding: 0;
@@ -6,14 +8,14 @@
 }
 
 
-@font-face{font-family:monument extended;font-style:normal;font-weight:400;src:local('Monument Extended'),url(https://fonts.cdnfonts.com/s/19595/MonumentExtended-Regular.woff) format('woff')}@font-face{font-family:monument extended;font-style:normal;font-weight:800;src:local('Monument Extended'),url(https://fonts.cdnfonts.com/s/19595/MonumentExtended-Ultrabold.woff) format('woff')}
-@Nazish-kiran
+
 
 
 
 html body{
     height:100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 #main{
@@ -250,6 +252,7 @@ html body{
     text-align: center;
     padding: 0;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 #letterhover h4:hover{
@@ -269,18 +272,18 @@ html body{
 #pictext1 #pic1{
     width: 50%; 
     margin-left: 120px;   
-    transform: translateY(33px);
+    margin-top: 33px;
 }
 
-#pictext1 #pictextsub{
+#pictext1 #pictextsub1{
     flex-direction: column;
 }
 
-#pictext1 #pic2 {
+#pictextsub1 #pic2 {
     width: 50%; 
     height: 50%;
     padding-left: 100px;
-    transform: translateY(-30px);
+    margin-top: -80px;
 }
 
 #pictext1 #pic1 h2 {
@@ -297,20 +300,378 @@ html body{
     margin-top: 20px; 
 }
 
-
 #text1 {
-    width: 40%; 
+    width: 30%; 
     text-align: left; 
     font-size: 25px;
-    padding-left: 30px;
+    font-family: 'Gilroy';
     font-weight: bolder;
-    transform: translateY(-20px);
+    padding-left: 85px;
+    margin-top: -10px; 
 }
 
 #text2{
-    width: 40%; 
+    width: 30%; 
     text-align: left; 
     font-size: 15px; 
-    padding-right: 100px;
-    transform: translateY(-20px);
+    font-family: 'Gilroy';
+    padding-right: 150px;
+    margin-top: -8px; 
+}
+
+#pictext2 {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 20px;
+}
+
+#pictext2 #pictextsub2{
+    flex-direction: column;
+}
+
+#pictextsub2 #pic3{
+    width: 50%; 
+    height: 50%;
+    margin-left: 120px;   
+    margin-top: 25px;
+}
+
+#pic3 #img{
+    border-radius: 50%;
+}
+
+#text3 {
+    width: 65%; 
+    text-align: left; 
+    font-size: 25px;
+    font-family: 'Gilroy';
+    font-weight: bolder;
+    margin-left: 120px;  
+    margin-top: 15px; 
+}
+
+#pic4 {
+    width: 50%; 
+    height: 50%;
+    padding-left: 50px;
+    margin-top: 25px;
+    margin-right: 100px;
+    border-radius: 50%;
+}
+
+#pic5{
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 160px;
+    margin-right: 20px;
+}
+
+#text4{
+    width:100%;
+    margin-left: 650px;
+    margin-top: 100px;
+}
+
+#text4 h2{
+    font-size: 40px;
+    font-family:'monument extended';
+}
+
+#pictext3{
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+#pictext3 #pictextsub3{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+#pictextsub3 #text5{
+    width: 60px;    
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Gilroy';
+}
+
+#pictextsub3 #pic6{
+    margin-left: -300px;
+}
+
+#pic6 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#pictextsub3 #text6{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gilroy';
+    margin-right: 260px;
+    margin-left: -150px;
+    position: relative;
+}
+
+#pictextsub3 #text6::before{
+    content: "25TH MARCH 2020";
+    font-size: 12px;
+    position: absolute;
+    font-family: 'Gilroy';   
+    font-weight: 600;
+    top: 80px;
+    left: 0%;   
+}
+
+#pictext3 #pictextsub4{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+#pictextsub4 #text7{
+    width: 60px;    
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Gilroy';
+}
+
+#pictextsub4 #pic7{
+    margin-left: -300px;
+}
+
+#pic7 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#pictextsub4 #text8{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gilroy';
+    margin-right: 345px;
+    margin-left: -150px;
+    position: relative;
+}
+
+#pictextsub4 #text8::before{
+    content: "3RD FEBRUARY 2020";
+    font-size: 12px;
+    position: absolute;
+    font-family: 'Gilroy';   
+    font-weight: 600;
+    top: 80px;
+    left: 0%;   
+}
+
+#pictext3 #pictextsub5{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+#pictextsub5 #text9{
+    width: 60px;    
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Gilroy';
+}
+
+#pictextsub5 #text10{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gilroy';
+    margin-left: -275px;
+    position: relative;
+}
+
+#pictextsub5 #text10::before{
+    content: "2020 REDESIGN";
+    font-size: 12px;
+    position: absolute;
+    font-family: 'Gilroy';   
+    font-weight: 600;
+    top: 80px;
+    left: 0%;   
+}
+
+#pictextsub5 #text11{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gilroy';
+    margin-right: 245px;
+    margin-left: -150px;
+    position: relative;
+}
+
+#pictextsub5 #text11::before{
+    content: "14TH JANUARY 2020";
+    font-size: 12px;
+    position: absolute;
+    font-family: 'Gilroy';   
+    font-weight: 600;
+    top: 80px;
+    left: 2%;   
+}
+
+#pictext3 #pictextsub6{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+#pictextsub6 #text12{
+    width: 60px;    
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Gilroy';
+}
+
+#pictextsub6 #text13{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Gilroy';
+    margin-right: 380px;
+    margin-left: -150px;
+    position: relative;
+}
+
+#pictextsub6 #text13::before{
+    content: "08TH JANUARY 2020";
+    font-size: 12px;
+    position: absolute;
+    font-family: 'Gilroy';   
+    font-weight: 600;
+    top: 80px;
+    left: 2%;   
+}
+
+#pictext4{
+    margin-top: 150px;
+    display: flex;
+}
+
+#pictext4 #pic8{
+    margin-left: 150px;
+}
+
+#pictext4 #textcontainer1{
+    flex-direction: column;
+    margin-top: -40px;
+    margin-left: 160px;
+}
+
+#textcontainer1 #text14{
+    font-size: 30px;
+    width: 380px;
+    font-family: 'monument extended';
+}
+
+#textcontainer1 #text15{
+    font-size: 25px;
+    width: 390px;
+    font-family: 'Gilroy';
+    font-weight: bolder;
+}
+
+#textcontainer1 #text16{
+    font-size: 15px;
+    width: 520px;
+    font-family: 'Gilroy';
+    font-weight: bold;
+}
+
+#pictext4 #piccontainer{
+    margin-left: 160px;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+#pic11{
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+#pictext5 {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 20px;
+}
+
+#pictext5 #pic12{
+    width: 50%; 
+    margin-left: 150px;   
+    margin-top: 65px;
+}
+
+#pictext5 #pictextsub8{
+    flex-direction: column;
+}
+
+#pictextsub8 #pic13 {
+    width: 50%; 
+    height: 50%;
+    padding-left: 160px;
+    margin-top: 80px;
+}
+
+#textcontainer2 {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    width: 100%; 
+    margin-top: 20px; 
+    margin-left: 38px;
+}
+
+#text17 {
+    width: 220px; 
+    text-align: left; 
+    font-size: 25px;
+    font-family: 'Gilroy';
+    font-weight: bolder;
+    padding-left: 100px;
+    margin-top: -10px; 
+}
+
+#text18{
+    width: 220px; 
+    text-align: left; 
+    font-size: 15px; 
+    font-family: 'Gilroy';
+    padding-right: 150px;
+    margin-top: 5px; 
+    margin-right: 35px;
 }
