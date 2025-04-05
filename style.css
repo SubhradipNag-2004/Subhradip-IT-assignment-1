@@ -228,6 +228,7 @@ html body{
     height: 50px;
     position: absolute;
     display: flex;
+    align-items: center;
     top: 1050px;
     padding-top: 10px;
     border-top: 2px solid black ;
@@ -674,4 +675,170 @@ html body{
     padding-right: 150px;
     margin-top: 5px; 
     margin-right: 35px;
+}
+
+#marqueetext{
+    margin-top: 80px;
+    height: 13vh;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex; 
+    align-items: center;  
+}
+
+#marqueetext h2{
+    display: inline-block;
+    font-size: 55px;
+    font-weight: lighter;
+    color: transparent; 
+    -webkit-text-stroke: 1px black; 
+    margin-right: 10px;
+}
+
+#pictext6{
+    margin-top: 60px;
+    margin-left: 120px;
+    display: flex;
+}
+
+#pictext6 #text19{
+    font-size: 25px;
+    font-family: 'monument extended';
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+#pictext6 #pictextsub9{
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#pictextsub9 #text20{
+    width: 450px;
+    font-size: 25px;
+    font-weight: light;
+    font-family: 'Gilroy';
+}
+
+#pictext6 #pictextsub10{
+    flex-direction: column;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#pictextsub10 #text21{
+    width: 500px;
+    font-size: 25px;
+    font-weight: light;
+    font-family: 'Gilroy';
+}
+
+#main #footer {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-top: 8vw;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    box-sizing: border-box;
+}
+
+#footer > div {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+#footer > div:last-child {
+    border-right: none;
+}
+
+
+#text24 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+#text24 h1 {
+    font-size: 38px;
+    font-family: monument extended;
+    position: relative;
+    margin: 0;
+}
+
+#text24 h1::after {
+    content: "©";
+    font-size: 14px;
+    position: absolute;
+    font-family: 'Gilroy';
+    font-weight: bold;
+    top: -4px;
+    left: 100%;
+}
+
+#text24 h1::before {
+    content: "model management";
+    font-size: 10px;
+    position: absolute;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    top: 95%;
+    left: 0;
+}
+
+#text25 {
+    flex-direction: column;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    gap: 10px;
+}
+
+#text26 {
+    flex-direction: column;
+    font-family: 'Gilroy';
+    font-size: 14px;
+    gap: 10px;
+}
+
+
+#textsub {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    gap: 10px;
+    text-align: left;
+}
+
+#text22 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Gilroy';
+}
+
+#icon {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+}
+
+#icon h4 {
+    margin: 0;
+}
+
+#text23 h4 {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    margin: 0;
+    max-width: 300px;
 }
